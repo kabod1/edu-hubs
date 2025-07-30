@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="25" fill="url(#primaryGradient)" opacity="0.1"/>
+  
+  <!-- Shopping cart base -->
+  <path d="M12 20 L16 20 L18 28 L28 28" stroke="url(#primaryGradient)" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Shopping cart basket -->
+  <rect x="18" y="24" width="10" height="6" rx="1" fill="none" stroke="url(#primaryGradient)" stroke-width="1.5"/>
+  
+  <!-- Shopping cart wheels -->
+  <circle cx="20" cy="33" r="1.5" fill="url(#primaryGradient)"/>
+  <circle cx="26" cy="33" r="1.5" fill="url(#primaryGradient)"/>
+  
+  <!-- Network nodes representing marketplace connections -->
+  <circle cx="35" cy="15" r="2.5" fill="url(#accentGradient)"/>
+  <circle cx="43" cy="22" r="2.5" fill="url(#accentGradient)"/>
+  <circle cx="35" cy="30" r="2.5" fill="url(#accentGradient)"/>
+  <circle cx="48" cy="35" r="2.5" fill="url(#accentGradient)"/>
+  
+  <!-- Connection lines -->
+  <line x1="35" y1="15" x2="43" y2="22" stroke="url(#accentGradient)" stroke-width="1.2" opacity="0.7"/>
+  <line x1="43" y1="22" x2="35" y2="30" stroke="url(#accentGradient)" stroke-width="1.2" opacity="0.7"/>
+  <line x1="43" y1="22" x2="48" y2="35" stroke="url(#accentGradient)" stroke-width="1.2" opacity="0.7"/>
+  <line x1="35" y1="30" x2="48" y2="35" stroke="url(#accentGradient)" stroke-width="1.2" opacity="0.7"/>
+  
+  <!-- Company name -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="url(#primaryGradient)">MarketPlace</text>
+  <text x="70" y="40" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Connect • Shop • Discover</text>
+</svg>
