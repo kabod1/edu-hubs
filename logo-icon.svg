@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="38" fill="url(#primaryGradient)" opacity="0.1"/>
+  
+  <!-- Shopping cart base -->
+  <path d="M20 30 L25 30 L28 40 L40 40" stroke="url(#primaryGradient)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Shopping cart basket -->
+  <rect x="28" y="35" width="12" height="8" rx="1" fill="none" stroke="url(#primaryGradient)" stroke-width="2.5"/>
+  
+  <!-- Shopping cart wheels -->
+  <circle cx="31" cy="47" r="2.5" fill="url(#primaryGradient)"/>
+  <circle cx="37" cy="47" r="2.5" fill="url(#primaryGradient)"/>
+  
+  <!-- Network nodes representing marketplace connections -->
+  <circle cx="50" cy="25" r="4" fill="url(#accentGradient)"/>
+  <circle cx="60" cy="35" r="4" fill="url(#accentGradient)"/>
+  <circle cx="50" cy="45" r="4" fill="url(#accentGradient)"/>
+  <circle cx="65" cy="50" r="4" fill="url(#accentGradient)"/>
+  
+  <!-- Connection lines -->
+  <line x1="50" y1="25" x2="60" y2="35" stroke="url(#accentGradient)" stroke-width="2" opacity="0.7"/>
+  <line x1="60" y1="35" x2="50" y2="45" stroke="url(#accentGradient)" stroke-width="2" opacity="0.7"/>
+  <line x1="60" y1="35" x2="65" y2="50" stroke="url(#accentGradient)" stroke-width="2" opacity="0.7"/>
+  <line x1="50" y1="45" x2="65" y2="50" stroke="url(#accentGradient)" stroke-width="2" opacity="0.7"/>
+</svg>

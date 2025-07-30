@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1D4ED8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="40" cy="40" r="35" fill="url(#primaryGradient)" opacity="0.1"/>
+  
+  <!-- Shopping cart base -->
+  <path d="M15 25 L20 25 L23 35 L35 35" stroke="url(#primaryGradient)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Shopping cart basket -->
+  <rect x="23" y="30" width="12" height="8" rx="1" fill="none" stroke="url(#primaryGradient)" stroke-width="2"/>
+  
+  <!-- Shopping cart wheels -->
+  <circle cx="26" cy="42" r="2" fill="url(#primaryGradient)"/>
+  <circle cx="32" cy="42" r="2" fill="url(#primaryGradient)"/>
+  
+  <!-- Network nodes representing marketplace connections -->
+  <circle cx="45" cy="20" r="3" fill="url(#accentGradient)"/>
+  <circle cx="55" cy="30" r="3" fill="url(#accentGradient)"/>
+  <circle cx="45" cy="40" r="3" fill="url(#accentGradient)"/>
+  <circle cx="60" cy="45" r="3" fill="url(#accentGradient)"/>
+  
+  <!-- Connection lines -->
+  <line x1="45" y1="20" x2="55" y2="30" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+  <line x1="55" y1="30" x2="45" y2="40" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+  <line x1="55" y1="30" x2="60" y2="45" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+  <line x1="45" y1="40" x2="60" y2="45" stroke="url(#accentGradient)" stroke-width="1.5" opacity="0.7"/>
+  
+  <!-- Company name -->
+  <text x="90" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#primaryGradient)">MarketPlace</text>
+  <text x="90" y="50" font-family="Arial, sans-serif" font-size="10" fill="#6B7280">Online Marketplace</text>
+</svg>
